@@ -4,5 +4,4 @@ PyTorch Implementation for Conference Paper ["Shape-invariant Adversarial Point 
 <p align="center"><img width="100%" src="teaser.png" /></p>
 
 ## Preparation
-### Dataset
 Download 
