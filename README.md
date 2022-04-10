@@ -7,5 +7,20 @@
 <p align="center"><img width="100%" src="teaser.png" /></p>
 
 ## Preparation
-Download the aligned [ModelNet40](https://shapenet.cs.stanford.edu/media/modelnet40_normal_resampled.zip) dataset and the aligned [ShapeNetPart](https://shapenet.cs.stanford.edu/ericyi/shapenetcore_partanno_segmentation_benchmark_v0.zip) dataset in their point cloud format, and unzip them into your own dataset path.
+Download the aligned [ModelNet40](https://shapenet.cs.stanford.edu/media/modelnet40_normal_resampled.zip) dataset and the aligned [ShapeNetPart](https://shapenet.cs.stanford.edu/ericyi/shapenetcore_partanno_segmentation_benchmark_v0.zip) dataset in their point cloud format and unzip them into your own dataset path.
+
+Download the [pretrained models](https://drive.google.com/file/d/1L25i0l6L_b1Vw504WQR8-Z0oh2FJA0G9/view?usp=sharing) we provided for attack evaluation and unzip them at ```./checkpoint```.
+
+
+
+## Citation
+If you find this work useful for your research, please cite our [paper](https://arxiv.org/abs/2203.04041):
+```
+@article{huang2022siadv,
+  title={Shape-invariant 3D Adversarial Point Clouds},
+  author={Qidong Huang and Xiaoyi Dong and Dongdong Chen and Weiming Zhang and Nenghai Yu},
+  journal={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  year={2022}
+}
+```
 
