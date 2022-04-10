@@ -1,4 +1,4 @@
 # shape-invariant-adversarial-point-clouds
-Official Pytorch implementation for "Shape-invariant Adversarial Point Clouds" (CVPR 2022).
+PyTorch Implementation for Conference Paper "Shape-invariant Adversarial Point Clouds"(https://arxiv.org/abs/2203.04041) (CVPR 2022).
 
 Coming soon.
