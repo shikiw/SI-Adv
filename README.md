@@ -9,15 +9,16 @@
 <p align="center"><img width="100%" src="teaser.png" /></p>
 
 ## Setup
-Python 3 dependencies:
+The code is tested with Python3, Pytorch >= 1.6 and CUDA >= 10.2, including dependencies:
 
-* pytorch >= 1.6.0
-* cudatoolkit >= 10.2
-* numpy >= 
+* tqdm >= 4.52.0
+* numpy >= 1.19.2
 * scipy >= 1.6.3
 * open3d >= 0.13.0
+* torchvision > =0.7.0
+* scikit-learn >= 1.0
 
-To complie cpp extension successfully, we list our dependencies:
+To complie cpp extension successfully, we list our dependencies for reference:
 
 * gcc == 9.4.0
 * ninja == 1.7.2
