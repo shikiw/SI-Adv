@@ -23,7 +23,7 @@ To complie cpp extension successfully, we list our dependencies for reference:
 * gcc == 9.4.0
 * ninja == 1.7.2
 
-**TL;DR quick start**
+### TL;DR quick start
 We also provide a conda environment setup file including all of the above dependencies. Create the conda environment `si_adv_pc` by running:
 ```
 conda env create -f environment.yml
