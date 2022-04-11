@@ -9,7 +9,7 @@
 <p align="center"><img width="100%" src="teaser.png" /></p>
 
 ## Setup
-The code is tested with Python3, Pytorch >= 1.6 and CUDA >= 10.2, including dependencies:
+The code is tested with Python3.7, Pytorch >= 1.6 and CUDA >= 10.2, including dependencies:
 
 * tqdm >= 4.52.0
 * numpy >= 1.19.2
