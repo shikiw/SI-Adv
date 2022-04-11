@@ -50,6 +50,8 @@ Download the [pretrained models](https://drive.google.com/file/d/1L25i0l6L_b1Vw5
 To implement white-box shape-invariant attack on PointNet, please run the following command:
 ```
 python main.py 
+--dataset ModelNet40
+--data_path /your/path/to/dataset/
 --transfer_attack_method ifgm_ours 
 --surrogate_model pointnet_cls 
 --target_model pointnet_cls 
@@ -62,6 +64,8 @@ python main.py
 To tranfer the white-box attacked input generated on white-box PointNet to black-box target CurveNet, please run the following command:
 ```
 python main.py 
+--dataset ModelNet40
+--data_path /your/path/to/dataset/
 --transfer_attack_method ifgm_ours 
 --surrogate_model pointnet_cls 
 --target_model curvenet
@@ -74,6 +78,8 @@ python main.py
 To implement black-box query-based shape-invariant attack, if you choose DGCNN as the surrogate model to attack target black-box PAConv, please run the following command:
 ```
 python main.py 
+--dataset ModelNet40
+--data_path /your/path/to/dataset/
 --query_attack_method ours 
 --surrogate_model dgcnn 
 --target_model paconv
