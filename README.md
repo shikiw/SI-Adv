@@ -71,7 +71,7 @@ python main.py
 ```
 
 ## Black-box transfer-based attack
-To tranfer the white-box attacked input generated on white-box PointNet to black-box target CurveNet, please run the following command:
+To implement transfer-based attack from PointNet to black-box target CurveNet, please run the following command:
 ```
 python main.py 
 --dataset ModelNet40
