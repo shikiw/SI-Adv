@@ -107,3 +107,6 @@ If you find this work useful for your research, please cite our [paper](https://
 }
 ```
 
+## License
+The code is released under MIT License (see LICENSE file for details).
+
