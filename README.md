@@ -35,7 +35,8 @@ The code is tested with Python3.7, Pytorch >= 1.6 and CUDA >= 10.2, including de
 * torchvision > =0.7.0
 * scikit-learn >= 1.0
 
-To complie cpp extension successfully, we list our dependencies for reference:
+When running the code on CurveNet for the first time, it will take a few minutes to automatically compile the cpp extension. 
+Here we list our dependencies for reference:
 
 * gcc == 9.4.0
 * ninja == 1.7.2
@@ -43,7 +44,16 @@ To complie cpp extension successfully, we list our dependencies for reference:
 ## Preparation
 Download the aligned [ModelNet40](https://shapenet.cs.stanford.edu/media/modelnet40_normal_resampled.zip) dataset and [ShapeNetPart](https://shapenet.cs.stanford.edu/ericyi/shapenetcore_partanno_segmentation_benchmark_v0.zip) dataset in their point cloud format and unzip them into your own dataset path.
 
-Download the [pretrained models](https://drive.google.com/file/d/1L25i0l6L_b1Vw504WQR8-Z0oh2FJA0G9/view?usp=sharing) we provided for attack evaluation and unzip them at ```./checkpoint```. This model pool includes PointNet, PointNet++, DGCNN, PointCNN, PointConv, RS-CNN, PCT, Simple_View and CurveNet.
+Download the [pretrained models](https://drive.google.com/file/d/1L25i0l6L_b1Vw504WQR8-Z0oh2FJA0G9/view?usp=sharing) we provided for attack evaluation and unzip them at ```./checkpoint```. The available models include 
+[PointNet](https://github.com/charlesq34/pointnet), 
+[PointNet++](https://github.com/charlesq34/pointnet2), 
+[DGCNN](https://github.com/WangYueFt/dgcnn), 
+[PointCNN](https://github.com/yangyanli/PointCNN), 
+[PointConv](https://github.com/DylanWusee/pointconv_pytorch), 
+[RS-CNN](https://github.com/Yochengliu/Relation-Shape-CNN), 
+[PCT](https://github.com/Strawberry-Eat-Mango/PCT_Pytorch), 
+[SimpleView](https://github.com/princeton-vl/SimpleView) and 
+[CurveNet](https://github.com/tiangexiang/CurveNet).
 
 
 ## White-box attack
