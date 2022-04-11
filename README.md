@@ -26,7 +26,7 @@ python main.py --transfer_attack_method ifgm_ours
 ```
 
 ## Setup
-The code is tested with Python3.7, Pytorch >= 1.6 and CUDA >= 10.2, including dependencies:
+The code is tested with Python3.7, Pytorch >= 1.6 and CUDA >= 10.2, including the following dependencies:
 
 * tqdm >= 4.52.0
 * numpy >= 1.19.2
