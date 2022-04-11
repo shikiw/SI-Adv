@@ -73,7 +73,6 @@ python main.py
 ## Black-box query-based attack
 To implement black-box query-based shape-invariant attack, if you choose DGCNN as the surrogate model to attack target black-box PAConv, please run the following command:
 ```
-```
 python main.py 
 --query_attack_method ours 
 --surrogate_model dgcnn 
