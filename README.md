@@ -52,6 +52,7 @@ Download the [pretrained models](https://drive.google.com/file/d/1L25i0l6L_b1Vw5
 [PointConv](https://github.com/DylanWusee/pointconv_pytorch), 
 [RS-CNN](https://github.com/Yochengliu/Relation-Shape-CNN), 
 [PCT](https://github.com/Strawberry-Eat-Mango/PCT_Pytorch), 
+[PAConv](https://github.com/CVMI-Lab/PAConv), 
 [SimpleView](https://github.com/princeton-vl/SimpleView) and 
 [CurveNet](https://github.com/tiangexiang/CurveNet).
 
