@@ -35,7 +35,7 @@ The code is tested with Python3.7, Pytorch >= 1.6 and CUDA >= 10.2, including th
 * torchvision >= 0.7.0
 * scikit-learn >= 1.0
 
-When running the code on CurveNet for the first time, it will take a few minutes to automatically compile the cpp extension. 
+When running the code on CurveNet for the first time, it will take a few minutes to automatically compile the cuda extension. 
 Here we list our dependencies for reference:
 
 * gcc == 9.4.0
