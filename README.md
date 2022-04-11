@@ -1,5 +1,5 @@
 # Shape-invariant 3D Adversarial Point Clouds (CVPR 2022)
-> This repository provides the official PyTorch implementation of the following conference paper: <br>
+This repository provides the official PyTorch implementation of the following conference paper: 
 > [**Shape-invariant 3D Adversarial Point Clouds (CVPR 2022)**](https://arxiv.org/abs/2203.04041) <br>
 > [Qidong Huang](http://home.ustc.edu.cn/~hqd0037/)<sup>1</sup>, 
 > [Xiaoyi Dong](https://scholar.google.com/citations?user=FscToE0AAAAJ&hl=en)<sup>1</sup>, 
