@@ -186,11 +186,11 @@ if __name__ == "__main__":
     parser.add_argument('--top5_attack', action='store_true', default=False,
                         help='Whether to attack the top-5 prediction [default: False]')
 
-    parser.add_argument('--max_steps', default=20, type=int,
+    parser.add_argument('--max_steps', default=50, type=int,
                         help='max iterations for black-box attack')
-    parser.add_argument('--eps', default=0.32, type=float,
+    parser.add_argument('--eps', default=0.16, type=float,
                         help='epsilon of perturbation')
-    parser.add_argument('--step_size', default=0.32, type=float,
+    parser.add_argument('--step_size', default=0.07, type=float,
                         help='step-size of perturbation')
     args = parser.parse_args()
 
