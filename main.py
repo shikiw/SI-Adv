@@ -167,7 +167,7 @@ if __name__ == "__main__":
     parser.add_argument('--dataset', type=str, default='ModelNet40',
                         choices=['ModelNet40', 'ShapeNetPart'])
     parser.add_argument('--data_path', type=str, 
-                        default='/your/path/to/dataset/')
+                        default='/data/modelnet40_normal_resampled/')
     parser.add_argument('--normal', action='store_true', default=False,
                         help='Whether to use normal information [default: False]')
     parser.add_argument('--num_workers', type=int, default=4,
