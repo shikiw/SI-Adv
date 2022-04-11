@@ -22,7 +22,7 @@ To setup a conda environment, download the required dataset, and begin the attac
 conda env create -f environment.yml
 conda activate si_adv_pc
 bash download.sh
-python main.py
+python main.py --transfer_attack_method ifgm_ours 
 ```
 
 ## Setup
