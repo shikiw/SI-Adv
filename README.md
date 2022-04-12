@@ -100,7 +100,7 @@ python main.py
 ## Citation
 If you find this work useful for your research, please cite our [paper](https://arxiv.org/abs/2203.04041):
 ```
-@article{huang2022siadv,
+@inproceedings{huang2022siadv,
   title={Shape-invariant 3D Adversarial Point Clouds},
   author={Qidong Huang and Xiaoyi Dong and Dongdong Chen and Weiming Zhang and Nenghai Yu},
   journal={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
