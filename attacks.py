@@ -76,30 +76,23 @@ class PointCloudAttack(object):
         model_path = os.path.join('./checkpoint/' + self.args.dataset, model_name)
         if os.path.exists(model_path + '.pth'):
             checkpoint = torch.load(model_path + '.pth')
-
         elif os.path.exists(model_path + '.t7'):
             checkpoint = torch.load(model_path + '.t7')
-
         elif os.path.exists(model_path + '.tar'):
             checkpoint = torch.load(model_path + '.tar')
-
         else:
             raise NotImplementedError
 
         try:
             if 'model_state_dict' in checkpoint:
                 classifier.load_state_dict(checkpoint['model_state_dict'])
-
             elif 'model_state' in checkpoint:
                 classifier.load_state_dict(checkpoint['model_state'])
-
             else:
                 classifier.load_state_dict(checkpoint)
-
         except:
             classifier = nn.DataParallel(classifier)
             classifier.load_state_dict(checkpoint)
-
         return classifier
 
 
